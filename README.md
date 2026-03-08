@@ -2,28 +2,28 @@
 
 A functional radar system developed using an **Arduino Uno**, an **HC-SR04** ultrasonic sensor, and a servo motor. The project includes a custom-built Graphical User Interface (GUI) created in **Processing IDE** to visualize detected objects in real-time.
 
-## 🚀 Overview
+## Overview
 The radar scans a 150-degree area (from 15° to 165°) and detects objects within a 40cm range. The data is sent via Serial communication to the Processing application, which renders a classic radar display with a motion-blur effect.
 
-![Radar in Action](radar.gif) 
+![Radar in Action]((Media/radar.gif) 
 
-## 🛠️ Hardware Components
+## Hardware Components
 * **Microcontroller:** Arduino Uno
 * **Sensor:** HC-SR04 Ultrasonic Sensor
 * **Actuator:** SG90 Servo Motor
 * **Other:** Breadboard, Jumper wires
 
-## 💻 Software & Technologies
+## Software & Technologies
 * **C++ (Arduino):** Handles sensor data acquisition, servo control, and Serial data transmission.
 * **Processing (Java-based):** Manages the GUI, real-time data parsing, and coordinate transformation (Polar to Cartesian).
 * **Git:** Version control and project documentation.
 
-## 🧠 Key Learnings
+## Key Learnings
 * **Serial Communication:** Implemented a custom data protocol (`angle,distance.`) to synchronize hardware and software.
 * **Trigonometry:** Applied `sin()` and `cos()` functions to map sensor data onto a 2D coordinate system.
 * **UI/UX Design:** Created a "motion blur" effect in Processing by using semi-transparent rectangles to simulate a real radar sweep.
 
-## 📂 Project Structure
+## Project Structure
 * `Arduino_Code/`: Contains the `.ino` file for the microcontroller.
 * `Processing_Code/`: Contains the `.pde` sketch and necessary assets (fonts).
 * `Media/`: Images and GIFs demonstrating the project.
