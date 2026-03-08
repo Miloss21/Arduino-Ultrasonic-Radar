@@ -5,7 +5,7 @@ A functional radar system developed using an **Arduino Uno**, an **HC-SR04** ult
 ## Overview
 The radar scans a 150-degree area (from 15° to 165°) and detects objects within a 40cm range. The data is sent via Serial communication to the Processing application, which renders a classic radar display with a motion-blur effect.
 
-![Radar in Action]((Media/radar.gif) 
+![Radar in Action](Media/radar.gif) 
 
 ## Hardware Components
 * **Microcontroller:** Arduino Uno
